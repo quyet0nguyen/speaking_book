@@ -1,0 +1,27 @@
+version: "3.1"
+
+nlu:
+
+- intent: search_book
+  examples: |
+    - Tìm sách về [Harry Potter](book_title)
+    - Tôi muốn đọc một cuốn sách về [khoa học viễn tưởng](book_genre)
+    - Bạn có thể gợi ý một cuốn tiểu thuyết [tình yêu](book_genre) không?
+
+- intent: read_book
+  examples: |
+    - Đọc [The Catcher in the Rye](book_title)
+    - Bắt đầu đọc [Pride and Prejudice](book_title)
+    - Bạn có thể đọc cho tôi một cuốn sách [giả tưởng](book_genre) được không?
+
+- intent: stop_reading
+  examples: |
+    - Dừng đọc
+    - Tôi đã đọc xong
+    - Tạm dừng đọc
+
+- intent: help
+  examples: |
+    - Ứng dụng này hoạt động như thế nào?
+    - Tôi có thể làm gì với ứng dụng này?
+    - Tôi cần giúp đỡ

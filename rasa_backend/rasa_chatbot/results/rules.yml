@@ -1,0 +1,198 @@
+version: "3.1"
+
+rules:
+
+- rule: Rule to map 'VOTUYEN_PS_CDR_3G_PROVINCE' intent to 'action_VOTUYEN_PS_CDR_3G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_PS_CDR_3G_PROVINCE
+  - action: action_VOTUYEN_PS_CDR_3G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_CS_CDR_3G_PROVINCE' intent to 'action_VOTUYEN_CS_CDR_3G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_CS_CDR_3G_PROVINCE
+  - action: action_VOTUYEN_CS_CDR_3G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_CSSR_2G_PROVINCE' intent to 'action_VOTUYEN_CSSR_2G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_CSSR_2G_PROVINCE
+  - action: action_VOTUYEN_CSSR_2G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_HOSR_2G_PROVINCE' intent to 'action_VOTUYEN_HOSR_2G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_HOSR_2G_PROVINCE
+  - action: action_VOTUYEN_HOSR_2G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_PS_RAB_CR_3G_PROVINCE' intent to 'action_VOTUYEN_PS_RAB_CR_3G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_PS_RAB_CR_3G_PROVINCE
+  - action: action_VOTUYEN_PS_RAB_CR_3G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_CS_RAB_CR_3G_PROVINCE' intent to 'action_VOTUYEN_CS_RAB_CR_3G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_CS_RAB_CR_3G_PROVINCE
+  - action: action_VOTUYEN_CS_RAB_CR_3G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_TCR_2G_PROVINCE' intent to 'action_VOTUYEN_TCR_2G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_TCR_2G_PROVINCE
+  - action: action_VOTUYEN_TCR_2G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_KPI_3G_PROVINCE' intent to 'action_VOTUYEN_KPI_3G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_KPI_3G_PROVINCE
+  - action: action_VOTUYEN_KPI_3G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_ERAB_CR_4G_PROVINCE' intent to 'action_VOTUYEN_ERAB_CR_4G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_ERAB_CR_4G_PROVINCE
+  - action: action_VOTUYEN_ERAB_CR_4G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_SCR_2G_PROVINCE' intent to 'action_VOTUYEN_SCR_2G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_SCR_2G_PROVINCE
+  - action: action_VOTUYEN_SCR_2G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_RRC_CR_3G_PROVINCE' intent to 'action_VOTUYEN_RRC_CR_3G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_RRC_CR_3G_PROVINCE
+  - action: action_VOTUYEN_RRC_CR_3G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_PS_CSSR_3G_PROVINCE' intent to 'action_VOTUYEN_PS_CSSR_3G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_PS_CSSR_3G_PROVINCE
+  - action: action_VOTUYEN_PS_CSSR_3G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_KPI_SERVICE_PROVINCE' intent to 'action_VOTUYEN_KPI_SERVICE_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_KPI_SERVICE_PROVINCE
+  - action: action_VOTUYEN_KPI_SERVICE_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_EPS_CSSR_4G_PROVINCE' intent to 'action_VOTUYEN_EPS_CSSR_4G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_EPS_CSSR_4G_PROVINCE
+  - action: action_VOTUYEN_EPS_CSSR_4G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_SOTRAM_PS_PROVINCE' intent to 'action_VOTUYEN_SOTRAM_PS_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_SOTRAM_PS_PROVINCE
+  - action: action_VOTUYEN_SOTRAM_PS_PROVINCE
+
+- rule: Rule to map '' intent to 'action_' action. 
+  steps:
+  - intent: 
+  - action: action_
+
+- rule: Rule to map 'VOTUYEN_VOICE_CSSR_PROVINCE' intent to 'action_VOTUYEN_VOICE_CSSR_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_VOICE_CSSR_PROVINCE
+  - action: action_VOTUYEN_VOICE_CSSR_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_TRAFFIC_PROVINCE' intent to 'action_VOTUYEN_TRAFFIC_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_TRAFFIC_PROVINCE
+  - action: action_VOTUYEN_TRAFFIC_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_ERRC_CR_4G_PROVINCE' intent to 'action_VOTUYEN_ERRC_CR_4G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_ERRC_CR_4G_PROVINCE
+  - action: action_VOTUYEN_ERRC_CR_4G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_SOCELL_PS_PROVINCE' intent to 'action_VOTUYEN_SOCELL_PS_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_SOCELL_PS_PROVINCE
+  - action: action_VOTUYEN_SOCELL_PS_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_TRAMDOITHU_PROVINCE' intent to 'action_VOTUYEN_TRAMDOITHU_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_TRAMDOITHU_PROVINCE
+  - action: action_VOTUYEN_TRAMDOITHU_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_SDR_2G_PROVINCE' intent to 'action_VOTUYEN_SDR_2G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_SDR_2G_PROVINCE
+  - action: action_VOTUYEN_SDR_2G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_DATA_CSSR_PROVINCE' intent to 'action_VOTUYEN_DATA_CSSR_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_DATA_CSSR_PROVINCE
+  - action: action_VOTUYEN_DATA_CSSR_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_VOLTE_CSSR_4G_PROVINCE' intent to 'action_VOTUYEN_VOLTE_CSSR_4G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_VOLTE_CSSR_4G_PROVINCE
+  - action: action_VOTUYEN_VOLTE_CSSR_4G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_CDR_2G_PROVINCE' intent to 'action_VOTUYEN_CDR_2G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_CDR_2G_PROVINCE
+  - action: action_VOTUYEN_CDR_2G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_SUB_ATTACHED_CELL' intent to 'action_VOTUYEN_SUB_ATTACHED_CELL' action. 
+  steps:
+  - intent: VOTUYEN_SUB_ATTACHED_CELL
+  - action: action_VOTUYEN_SUB_ATTACHED_CELL
+
+- rule: Rule to map 'VOTUYEN_SUB_ATTACHED_PROVINCE' intent to 'action_VOTUYEN_SUB_ATTACHED_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_SUB_ATTACHED_PROVINCE
+  - action: action_VOTUYEN_SUB_ATTACHED_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_KPI_2G_PROVINCE' intent to 'action_VOTUYEN_KPI_2G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_KPI_2G_PROVINCE
+  - action: action_VOTUYEN_KPI_2G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_KPI_CELL' intent to 'action_VOTUYEN_KPI_CELL' action. 
+  steps:
+  - intent: VOTUYEN_KPI_CELL
+  - action: action_VOTUYEN_KPI_CELL
+
+- rule: Rule to map 'VOTUYEN_THROUGHPUT_PROVINCE' intent to 'action_VOTUYEN_THROUGHPUT_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_THROUGHPUT_PROVINCE
+  - action: action_VOTUYEN_THROUGHPUT_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_VOICE_CDR_PROVINCE' intent to 'action_VOTUYEN_VOICE_CDR_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_VOICE_CDR_PROVINCE
+  - action: action_VOTUYEN_VOICE_CDR_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_VOLTE_CDR_4G_PROVINCE' intent to 'action_VOTUYEN_VOLTE_CDR_4G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_VOLTE_CDR_4G_PROVINCE
+  - action: action_VOTUYEN_VOLTE_CDR_4G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_DATA_CDR_PROVINCE' intent to 'action_VOTUYEN_DATA_CDR_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_DATA_CDR_PROVINCE
+  - action: action_VOTUYEN_DATA_CDR_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_CSFB_SR_LTE_4G_PROVINCE' intent to 'action_VOTUYEN_CSFB_SR_LTE_4G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_CSFB_SR_LTE_4G_PROVINCE
+  - action: action_VOTUYEN_CSFB_SR_LTE_4G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_EPS_CDR_4G_PROVINCE' intent to 'action_VOTUYEN_EPS_CDR_4G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_EPS_CDR_4G_PROVINCE
+  - action: action_VOTUYEN_EPS_CDR_4G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_CS_CSSR_3G_PROVINCE' intent to 'action_VOTUYEN_CS_CSSR_3G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_CS_CSSR_3G_PROVINCE
+  - action: action_VOTUYEN_CS_CSSR_3G_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_SUB_ATTACHED_TRAM' intent to 'action_VOTUYEN_SUB_ATTACHED_TRAM' action. 
+  steps:
+  - intent: VOTUYEN_SUB_ATTACHED_TRAM
+  - action: action_VOTUYEN_SUB_ATTACHED_TRAM
+
+- rule: Rule to map 'VOTUYEN_TU_PROVINCE' intent to 'action_VOTUYEN_TU_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_TU_PROVINCE
+  - action: action_VOTUYEN_TU_PROVINCE
+
+- rule: Rule to map 'VOTUYEN_KPI_4G_PROVINCE' intent to 'action_VOTUYEN_KPI_4G_PROVINCE' action. 
+  steps:
+  - intent: VOTUYEN_KPI_4G_PROVINCE
+  - action: action_VOTUYEN_KPI_4G_PROVINCE

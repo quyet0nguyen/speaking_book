@@ -1,0 +1,29 @@
+chất lượng dịch vụ di động: 
+    "Ở Hà Nam chất lượng mạng thế nào?"
+
+tỉ lệ nghẽn kênh báo hiệu SCR 2G:
+    "Tỉ lệ nghẽn kênh sử dụng trên toàn mạng?"
+
+chất lượng mạng 3G:
+    "Mạng 3G ở Bình Dương có chất lượng ntn?"
+
+tỉ lệ nghẽn CS_RAB_CR 3G:
+    "Tỉ lệ nghẽn thiết lập keeh RAB CS 3G ở Nam Định?"
+
+số thuê bao attached tại cell:
+    "Cell phú yên có bao nhiêu thuê bao?"
+
+tỉ lệ thiết lập cuộc gọi thoại thành công VoLTE_CSSR 4G:
+    "Tỉ lệ thiết lập thành công cuộc gọi trên mạng 4G Hà Nam?"
+
+tỉ lệ rớt kênh báo hiệu SDR 2G:
+    "Tỉ lệ rớt kênh báo hiệu 2G trên Hà Nam?"
+
+tỉ lệ rớt cuộc gọi thoại VoiCe_CDR:
+    "Bắc Sơn có tỉ lệ rớt cuộc hội thoại là bao nhiêu?"
+
+tỉ lệ rớt cuộc gọi thoại VoiCe_CDR:
+    "kênh TCH ở Hà Nam có tỉ lệ nghẽn ntn?"
+
+
+    

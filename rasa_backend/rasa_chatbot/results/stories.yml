@@ -1,0 +1,198 @@
+version: "3.1"
+
+stories:
+
+- story: VOTUYEN_PS_CDR_3G_PROVINCE
+  steps:
+  - intent: VOTUYEN_PS_CDR_3G_PROVINCE
+  - action: action_VOTUYEN_PS_CDR_3G_PROVINCE
+
+- story: VOTUYEN_CS_CDR_3G_PROVINCE
+  steps:
+  - intent: VOTUYEN_CS_CDR_3G_PROVINCE
+  - action: action_VOTUYEN_CS_CDR_3G_PROVINCE
+
+- story: VOTUYEN_CSSR_2G_PROVINCE
+  steps:
+  - intent: VOTUYEN_CSSR_2G_PROVINCE
+  - action: action_VOTUYEN_CSSR_2G_PROVINCE
+
+- story: VOTUYEN_HOSR_2G_PROVINCE
+  steps:
+  - intent: VOTUYEN_HOSR_2G_PROVINCE
+  - action: action_VOTUYEN_HOSR_2G_PROVINCE
+
+- story: VOTUYEN_PS_RAB_CR_3G_PROVINCE
+  steps:
+  - intent: VOTUYEN_PS_RAB_CR_3G_PROVINCE
+  - action: action_VOTUYEN_PS_RAB_CR_3G_PROVINCE
+
+- story: VOTUYEN_CS_RAB_CR_3G_PROVINCE
+  steps:
+  - intent: VOTUYEN_CS_RAB_CR_3G_PROVINCE
+  - action: action_VOTUYEN_CS_RAB_CR_3G_PROVINCE
+
+- story: VOTUYEN_TCR_2G_PROVINCE
+  steps:
+  - intent: VOTUYEN_TCR_2G_PROVINCE
+  - action: action_VOTUYEN_TCR_2G_PROVINCE
+
+- story: VOTUYEN_KPI_3G_PROVINCE
+  steps:
+  - intent: VOTUYEN_KPI_3G_PROVINCE
+  - action: action_VOTUYEN_KPI_3G_PROVINCE
+
+- story: VOTUYEN_ERAB_CR_4G_PROVINCE
+  steps:
+  - intent: VOTUYEN_ERAB_CR_4G_PROVINCE
+  - action: action_VOTUYEN_ERAB_CR_4G_PROVINCE
+
+- story: VOTUYEN_SCR_2G_PROVINCE
+  steps:
+  - intent: VOTUYEN_SCR_2G_PROVINCE
+  - action: action_VOTUYEN_SCR_2G_PROVINCE
+
+- story: VOTUYEN_RRC_CR_3G_PROVINCE
+  steps:
+  - intent: VOTUYEN_RRC_CR_3G_PROVINCE
+  - action: action_VOTUYEN_RRC_CR_3G_PROVINCE
+
+- story: VOTUYEN_PS_CSSR_3G_PROVINCE
+  steps:
+  - intent: VOTUYEN_PS_CSSR_3G_PROVINCE
+  - action: action_VOTUYEN_PS_CSSR_3G_PROVINCE
+
+- story: VOTUYEN_KPI_SERVICE_PROVINCE
+  steps:
+  - intent: VOTUYEN_KPI_SERVICE_PROVINCE
+  - action: action_VOTUYEN_KPI_SERVICE_PROVINCE
+
+- story: VOTUYEN_EPS_CSSR_4G_PROVINCE
+  steps:
+  - intent: VOTUYEN_EPS_CSSR_4G_PROVINCE
+  - action: action_VOTUYEN_EPS_CSSR_4G_PROVINCE
+
+- story: VOTUYEN_SOTRAM_PS_PROVINCE
+  steps:
+  - intent: VOTUYEN_SOTRAM_PS_PROVINCE
+  - action: action_VOTUYEN_SOTRAM_PS_PROVINCE
+
+- story: 
+  steps:
+  - intent: 
+  - action: action_
+
+- story: VOTUYEN_VOICE_CSSR_PROVINCE
+  steps:
+  - intent: VOTUYEN_VOICE_CSSR_PROVINCE
+  - action: action_VOTUYEN_VOICE_CSSR_PROVINCE
+
+- story: VOTUYEN_TRAFFIC_PROVINCE
+  steps:
+  - intent: VOTUYEN_TRAFFIC_PROVINCE
+  - action: action_VOTUYEN_TRAFFIC_PROVINCE
+
+- story: VOTUYEN_ERRC_CR_4G_PROVINCE
+  steps:
+  - intent: VOTUYEN_ERRC_CR_4G_PROVINCE
+  - action: action_VOTUYEN_ERRC_CR_4G_PROVINCE
+
+- story: VOTUYEN_SOCELL_PS_PROVINCE
+  steps:
+  - intent: VOTUYEN_SOCELL_PS_PROVINCE
+  - action: action_VOTUYEN_SOCELL_PS_PROVINCE
+
+- story: VOTUYEN_TRAMDOITHU_PROVINCE
+  steps:
+  - intent: VOTUYEN_TRAMDOITHU_PROVINCE
+  - action: action_VOTUYEN_TRAMDOITHU_PROVINCE
+
+- story: VOTUYEN_SDR_2G_PROVINCE
+  steps:
+  - intent: VOTUYEN_SDR_2G_PROVINCE
+  - action: action_VOTUYEN_SDR_2G_PROVINCE
+
+- story: VOTUYEN_DATA_CSSR_PROVINCE
+  steps:
+  - intent: VOTUYEN_DATA_CSSR_PROVINCE
+  - action: action_VOTUYEN_DATA_CSSR_PROVINCE
+
+- story: VOTUYEN_VOLTE_CSSR_4G_PROVINCE
+  steps:
+  - intent: VOTUYEN_VOLTE_CSSR_4G_PROVINCE
+  - action: action_VOTUYEN_VOLTE_CSSR_4G_PROVINCE
+
+- story: VOTUYEN_CDR_2G_PROVINCE
+  steps:
+  - intent: VOTUYEN_CDR_2G_PROVINCE
+  - action: action_VOTUYEN_CDR_2G_PROVINCE
+
+- story: VOTUYEN_SUB_ATTACHED_CELL
+  steps:
+  - intent: VOTUYEN_SUB_ATTACHED_CELL
+  - action: action_VOTUYEN_SUB_ATTACHED_CELL
+
+- story: VOTUYEN_SUB_ATTACHED_PROVINCE
+  steps:
+  - intent: VOTUYEN_SUB_ATTACHED_PROVINCE
+  - action: action_VOTUYEN_SUB_ATTACHED_PROVINCE
+
+- story: VOTUYEN_KPI_2G_PROVINCE
+  steps:
+  - intent: VOTUYEN_KPI_2G_PROVINCE
+  - action: action_VOTUYEN_KPI_2G_PROVINCE
+
+- story: VOTUYEN_KPI_CELL
+  steps:
+  - intent: VOTUYEN_KPI_CELL
+  - action: action_VOTUYEN_KPI_CELL
+
+- story: VOTUYEN_THROUGHPUT_PROVINCE
+  steps:
+  - intent: VOTUYEN_THROUGHPUT_PROVINCE
+  - action: action_VOTUYEN_THROUGHPUT_PROVINCE
+
+- story: VOTUYEN_VOICE_CDR_PROVINCE
+  steps:
+  - intent: VOTUYEN_VOICE_CDR_PROVINCE
+  - action: action_VOTUYEN_VOICE_CDR_PROVINCE
+
+- story: VOTUYEN_VOLTE_CDR_4G_PROVINCE
+  steps:
+  - intent: VOTUYEN_VOLTE_CDR_4G_PROVINCE
+  - action: action_VOTUYEN_VOLTE_CDR_4G_PROVINCE
+
+- story: VOTUYEN_DATA_CDR_PROVINCE
+  steps:
+  - intent: VOTUYEN_DATA_CDR_PROVINCE
+  - action: action_VOTUYEN_DATA_CDR_PROVINCE
+
+- story: VOTUYEN_CSFB_SR_LTE_4G_PROVINCE
+  steps:
+  - intent: VOTUYEN_CSFB_SR_LTE_4G_PROVINCE
+  - action: action_VOTUYEN_CSFB_SR_LTE_4G_PROVINCE
+
+- story: VOTUYEN_EPS_CDR_4G_PROVINCE
+  steps:
+  - intent: VOTUYEN_EPS_CDR_4G_PROVINCE
+  - action: action_VOTUYEN_EPS_CDR_4G_PROVINCE
+
+- story: VOTUYEN_CS_CSSR_3G_PROVINCE
+  steps:
+  - intent: VOTUYEN_CS_CSSR_3G_PROVINCE
+  - action: action_VOTUYEN_CS_CSSR_3G_PROVINCE
+
+- story: VOTUYEN_SUB_ATTACHED_TRAM
+  steps:
+  - intent: VOTUYEN_SUB_ATTACHED_TRAM
+  - action: action_VOTUYEN_SUB_ATTACHED_TRAM
+
+- story: VOTUYEN_TU_PROVINCE
+  steps:
+  - intent: VOTUYEN_TU_PROVINCE
+  - action: action_VOTUYEN_TU_PROVINCE
+
+- story: VOTUYEN_KPI_4G_PROVINCE
+  steps:
+  - intent: VOTUYEN_KPI_4G_PROVINCE
+  - action: action_VOTUYEN_KPI_4G_PROVINCE

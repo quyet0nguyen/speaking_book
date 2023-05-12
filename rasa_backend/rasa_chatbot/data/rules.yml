@@ -1,0 +1,27 @@
+version: "3.1"
+
+rules:
+
+- rule: search_book
+  steps:
+  - intent: search_book
+    entities:
+    - book_title: "Harry Potter"
+  - action: utter_search_book
+
+- rule: read_book
+  steps:
+  - intent: read_book
+    entities:
+    - book_title: "The Catcher in the Rye"
+  - action: utter_read_book
+
+- rule: stop_reading
+  steps:
+  - intent: stop_reading
+  - action: utter_stop_reading
+
+- rule: help
+  steps:
+  - intent: help
+  - action: utter_help

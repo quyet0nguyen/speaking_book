@@ -1,0 +1,49 @@
+version: "3.1"
+
+actions:
+  - action_restart
+  - action_session_start
+  - action_session_end
+  - action_default_fallback
+  - action_deactivate_form
+  - action_revert_fallback_events
+  - utter_search_book
+  - utter_read_book
+  - utter_stop_reading
+  - utter_help
+  - utter_ask_book_title
+  - utter_ask_book_genre
+  - utter_ask_continue_reading
+  - utter_ask_continue_searching
+  - utter_greet
+  - utter_did_that_help
+
+
+intents:
+  - search_book
+    use_entities: 
+    - book_title
+    - book_genre
+  - read_book
+    use_entities: 
+    - book_title
+    - book_genre
+  - stop_reading
+  - help
+  
+
+entities:
+  - book_title
+  - book_genre
+
+responses:
+  utter_greet:
+  - text: "Xin chào!"
+
+  utter_did_that_help:
+  - text: "Tôi có thể giúp gì cho bạn?"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

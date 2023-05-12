@@ -1,0 +1,1 @@
+docker run --rm -it -p 443:443 --name rasa_chatbot rasa_chatbot:v0.4.2
